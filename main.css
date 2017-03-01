@@ -1,0 +1,19 @@
+header {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	font-size: 66px;
+	background: #EFD3D7;
+}
+
+a {
+	color: #FEFCFD;
+}
+
+.row {
+	background: #EFD3D7;
+}
+
+ul {
+  list-style-type: none;
+  padding: 11px;
+}
