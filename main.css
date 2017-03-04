@@ -1,19 +1,49 @@
+body {
+	background: #EFD3D7;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #545454;
+
+}
+
 header {
 	font-family: 'Permanent Marker', cursive;
-	text-align: center;
+	text-align: left;
 	font-size: 66px;
-	background: #EFD3D7;
+	margin: 0 0 0 30px;
+}
+
+.end-div {
+	background: #F1E3E4;
+	padding-top: 20px;
+}
+
+.end-div a {
+	color: #545454;
+}
+
+li .nav_item {
+	display: inline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 11px;
+}
+
+.nav-pills > li.nav-item > a, .nav-pills > li.nav-item > a:focus {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0);
+	margin: 20px 5px 0 5px;
+	padding: 10px 30px 10px 30px;
 }
 
 a {
 	color: #FEFCFD;
 }
 
-.row {
-	background: #EFD3D7;
-}
 
-ul {
-  list-style-type: none;
-  padding: 11px;
+.recent-poems {
+   padding: 30px;
 }
