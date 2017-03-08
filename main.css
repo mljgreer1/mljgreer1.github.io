@@ -56,8 +56,8 @@ a {
 
 #footer {
 	background: #F1E3E4;
-	padding: 20px 30px 30px 30px;
 	font-weight: bold;
+	padding:20px 30px 30px 30px;
 }
 
 #footer .links {
@@ -87,6 +87,7 @@ p {
 	padding:5px;
 }
 
+<<<<<<< HEAD
 article {
 	background: #B6C2ED;
 	border: 3px solid #8E9AAF;
@@ -98,6 +99,12 @@ article {
 .poem {
 	display: none;
 }
+=======
+.about{
+	padding:100px;
+}
+
+>>>>>>> origin/master
 
 /* Carousel CSS */
 .carousel-item img {
@@ -126,3 +133,4 @@ article {
 	max-height:20%;
 	opacity: 1;
 }
+
