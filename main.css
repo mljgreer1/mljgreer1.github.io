@@ -1,5 +1,5 @@
 body {
-	background: #EFD3D7;
+	background-color: #F1E3E4;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #545454;
 
@@ -8,17 +8,14 @@ body {
 header {
 	font-family: 'Permanent Marker', cursive;
 	text-align: left;
-	font-size: 66px;
+	font-size: 72px;
 	margin: 0 0 0 30px;
+	color: black;
 }
 
-.end-div {
-	background: #F1E3E4;
-	padding-top: 20px;
-}
-
-.end-div a {
-	color: #545454;
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 36px;
 }
 
 li .nav_item {
@@ -30,7 +27,7 @@ ul {
   padding: 11px;
 }
 
-.nav-pills > li.nav-item > a, .nav-pills > li.nav-item > a:focus {
+.nav-pills > li.nav-item > a {
 	color: black;
 	font-weight: bold;
 	font-size: 18px;
@@ -39,11 +36,36 @@ ul {
 	padding: 10px 30px 10px 30px;
 }
 
+.nav-pills > li.nav-item > a:hover {
+	color: #FEFCFD;
+	background-color: #000000;
+}
+
+.carousel-item
+{
+	padding: 10px;
+}
+
 a {
 	color: #FEFCFD;
 }
 
-
-.recent-poems {
-   padding: 30px;
+#mid p {
+	font-size: 16px;
 }
+
+#mid {
+   padding: 70px;
+
+}
+
+#footer {
+	background: #EFD3D7;
+	padding: 20px 30px 30px 30px;
+	font-weight: bold;
+}
+
+#footer a {
+	color: #545454;
+}
+
