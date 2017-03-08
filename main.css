@@ -1,16 +1,10 @@
-.first-div{
+body{
 	background-color: #F1E3E4;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #545454;
 
 }
 
-.mid-div{
-	background-color: #EFD3D7;
-	font-family: 'Roboto Condensed', sans-serif;
-	color: #545454;
-
-}
 
 header {
 	font-family: 'Permanent Marker', cursive;
@@ -63,7 +57,7 @@ a {
 
 #mid {
    padding: 70px;
-
+   background: #EFD3D7;
 }
 
 #footer {
@@ -83,4 +77,13 @@ a {
 
 img-circle {
 	border-radius:50%;
+}
+
+.poetry {
+	margin:20px;
+	padding:20px;
+}
+
+p {
+	padding:5px;
 }
