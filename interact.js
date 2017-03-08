@@ -9,8 +9,39 @@ $(document).ready(function() {
     arrows: true,
     dots: true,
     touchMove: true,
-    useCSS: true
-    //prevArrow and nextArrow settings
+    useCSS: true,
+    responsive: [
+      {
+        breakpoint: 786,
+        settings: {
+          arrows:false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          accessibility: true,
+          dots: true,
+          touchMove: true,
+          useCSS: true
+        }
+      },
+      { 
+        breakpoint: 480,
+        settings: {
+          arrows:false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          accessibility: true,
+          dots: true,
+          touchMove: true,
+          useCSS: true
+        }
+      }
+    ]
   });
 });
 
