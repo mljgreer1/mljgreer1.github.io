@@ -1,4 +1,4 @@
-body {
+body{
 	background-color: #F1E3E4;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #545454;
@@ -51,17 +51,35 @@ a {
 
 #mid {
    padding: 70px;
-
+   background: #EFD3D7;
 }
 
 #footer {
-	background: #EFD3D7;
+	background: #F1E3E4;
 	padding: 20px 30px 30px 30px;
 	font-weight: bold;
 }
 
 #footer a {
 	color: #545454;
+}
+
+.facepic {
+	max-width:300px; 
+	max-height:300px;
+}
+
+img-circle {
+	border-radius:50%;
+}
+
+.poetry {
+	margin:20px;
+	padding:20px;
+}
+
+p {
+	padding:5px;
 }
 
 /* Carousel CSS */
