@@ -6,7 +6,7 @@ $(document).ready(function() {
     slidesToScroll: 1,
     infinite: true,
     accessibility: true,
-    arrows: false,
+    arrows: true,
     dots: true,
     touchMove: true,
     useCSS: true
@@ -15,9 +15,13 @@ $(document).ready(function() {
 });
 
 
-$("header").click(function(){
-  $("small").slideDown();
+$(".show").click(function(){
+  $(this).parent().find(".poem").slideToggle();
 });
+
+// $(".hide").click(function(){
+//   $(this).parent().find(".poem").slideUp();
+// });
 
 $("#submitPoem").click(function(){
   alert("Thank you for submitting your poem, we will respond to you shortly if your poem has successfully made it into one of our issues :)");
