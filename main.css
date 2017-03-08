@@ -41,11 +41,6 @@ ul {
 	background-color: #000000;
 }
 
-.carousel-item
-{
-	padding: 10px;
-}
-
 a {
 	color: #FEFCFD;
 }
@@ -69,3 +64,30 @@ a {
 	color: #545454;
 }
 
+/* Carousel CSS */
+.carousel-item img {
+	width: 200px;
+}
+
+.slick-center .carousel-item{
+	color: #FFF;
+}
+.slider{
+	width: 600px;  
+	height:150px;
+	margin: 20px auto;    
+	text-align: center;
+}
+
+.slider div{
+	margin-right: 5px;
+}
+.slick-slide{
+	opacity: .6;
+}
+.slick-center{
+	display: block;
+	max-width: 10%;
+	max-height:20%;
+	opacity: 1;
+}
