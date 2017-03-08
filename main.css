@@ -1,5 +1,12 @@
-body {
+.first-div{
 	background-color: #F1E3E4;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #545454;
+
+}
+
+.mid-div{
+	background-color: #EFD3D7;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #545454;
 
@@ -60,7 +67,7 @@ a {
 }
 
 #footer {
-	background: #EFD3D7;
+	background: #F1E3E4;
 	padding: 20px 30px 30px 30px;
 	font-weight: bold;
 }
