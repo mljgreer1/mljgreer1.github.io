@@ -62,7 +62,6 @@ a {
 
 #footer {
 	background: #F1E3E4;
-	padding: 20px 30px 30px 30px;
 	font-weight: bold;
 }
 
@@ -87,3 +86,18 @@ img-circle {
 p {
 	padding:5px;
 }
+
+.about{
+	padding:100px;
+}
+
+#hyperlinks{
+	padding: 120px 30px 30px 30px;
+}
+
+.submit {
+	margin: -240px 30px 30px 30px
+}
+	
+
+
