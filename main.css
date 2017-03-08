@@ -69,3 +69,11 @@ a {
 	color: #545454;
 }
 
+.facepic {
+	max-width:300px; 
+	max-height:300px;
+}
+
+img-circle {
+	border-radius:50%;
+}
