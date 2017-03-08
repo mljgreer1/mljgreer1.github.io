@@ -5,7 +5,6 @@ body{
 
 }
 
-
 header {
 	font-family: 'Permanent Marker', cursive;
 	text-align: left;
@@ -40,11 +39,6 @@ ul {
 .nav-pills > li.nav-item > a:hover {
 	color: #FEFCFD;
 	background-color: #000000;
-}
-
-.carousel-item
-{
-	padding: 10px;
 }
 
 a {
@@ -100,4 +94,31 @@ p {
 }
 	
 
+/* Carousel CSS */
+.carousel-item img {
+	width: 200px;
+}
+
+.slick-center .carousel-item{
+	color: #FFF;
+}
+.slider{
+	width: 600px;  
+	height:150px;
+	margin: 20px auto;    
+	text-align: center;
+}
+
+.slider div{
+	margin-right: 5px;
+}
+.slick-slide{
+	opacity: .6;
+}
+.slick-center{
+	display: block;
+	max-width: 10%;
+	max-height:20%;
+	opacity: 1;
+}
 
