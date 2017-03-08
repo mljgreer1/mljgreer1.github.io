@@ -87,7 +87,6 @@ p {
 	padding:5px;
 }
 
-<<<<<<< HEAD
 article {
 	background: #B6C2ED;
 	border: 3px solid #8E9AAF;
@@ -99,12 +98,11 @@ article {
 .poem {
 	display: none;
 }
-=======
+
 .about{
 	padding:100px;
 }
 
->>>>>>> origin/master
 
 /* Carousel CSS */
 .carousel-item img {
