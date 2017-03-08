@@ -15,8 +15,16 @@ $(document).ready(function() {
 });
 
 
+//$(".show").click(function(){
+ // $(this).parent().find(".poem").slideToggle();
+//});//
+
 $(".show").click(function(){
-  $(this).parent().find(".poem").slideToggle();
+$(this).parent().find(".poem").slideToggle();
+if ($(this).text() == "less")
+   $(this).text("more")
+else
+   $(this).text("less");
 });
 
 // $(".hide").click(function(){
