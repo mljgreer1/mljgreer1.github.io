@@ -5,6 +5,13 @@ body{
 
 }
 
+#content-area {
+	margin: auto;
+	width: 980px;
+	background-color: white;
+	padding: 10px;
+}
+
 header {
 	font-family: 'Permanent Marker', cursive;
 	text-align: left;
@@ -12,6 +19,7 @@ header {
 	margin: 0 0 0 30px;
 	color: black;
 }
+
 
 h2 {
 	font-family: 'Permanent Marker', cursive;
@@ -101,14 +109,14 @@ article {
 
 /* Carousel CSS */
 .carousel-item img {
-	width: 200px;
+	width: 150px;
 }
 
 .slick-center .carousel-item{
 	color: #FFF;
 }
 .slider{
-	width: 600px;  
+	width: 100px;  
 	height:150px;
 	margin: 20px auto;    
 	text-align: center;
