@@ -1,3 +1,4 @@
+/* Headers and main body CSS */
 body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: #F1E3E4;
@@ -39,6 +40,7 @@ h2 {
 	font-size: 36px;
 }
 
+/* Navbar CSS */
 li .nav_item {
 	display: inline;
 }
@@ -62,16 +64,9 @@ ul {
 	background-color: #000000;
 }
 
-a {
-	color: #FEFCFD;
-}
-
+/* Main content CSS */
 button {
 	background-color: rgba(0,0,0,0);
-}
-
-#mid p {
-	font-size: 16px;
 }
 
 #mid {
@@ -79,32 +74,14 @@ button {
    background: #EFD3D7;
 }
 
-#footer {
-	background: #F1E3E4;
-	font-weight: bold;
-	padding:20px 30px 30px 30px;
-}
-
-#footer .links {
-	line-height: 35px;
+#mid p {
 	font-size: 16px;
 }
 
-#footer a {
-	color: #545454;
-}
-
 .facepic {
-	max-width:300px; 
-	max-height:300px;
-}
-
-img-circle {
-	border-radius:50%;
-}
-
-p {
-	padding:5px;
+	max-width: 300px; 
+	max-height: 300px;
+	border-radius: 50%;
 }
 
 article {
@@ -119,8 +96,50 @@ article {
 	display: none;
 }
 
-.about{
-	padding:100px;
+.event {
+	margin: 20px;
+	max-width: 300px;
+	background: #B6C2ED;
+	border: 3px solid #8E9AAF;
+	border-radius: 20px;
+	padding: 10px;
+	color: #545454;
+	display: inline-block;
+	font-size: 20px;
+/*	overflow: auto;*/
+}
+
+.event > p {
+	font-size: 16px;
+	padding: 5px;
+}
+
+.event img {
+	margin: auto;
+	width: 270px;
+	height: 270px;
+	border-radius: 20px;
+}
+
+.details {
+	display: none;
+	text-align: left;
+}
+
+/* Footer CSS */
+#footer {
+	background: #F1E3E4;
+	font-weight: bold;
+	padding:20px 30px 30px 30px;
+}
+
+#footer .links {
+	line-height: 35px;
+	font-size: 16px;
+}
+
+#footer a {
+	color: #545454;
 }
 
 
