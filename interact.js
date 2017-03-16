@@ -3,7 +3,6 @@ $(document).ready(function() {
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 5,
-    slidesToScroll: 1,
     infinite: true,
     accessibility: true,
     arrows: true,

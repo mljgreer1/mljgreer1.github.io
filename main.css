@@ -12,6 +12,10 @@ body{
 	padding: 10px;
 }
 
+.navbar-default {
+	background: #F1E3E4;
+}
+
 header {
 	font-family: 'Permanent Marker', cursive;
 	text-align: left;
@@ -51,6 +55,10 @@ ul {
 
 a {
 	color: #FEFCFD;
+}
+
+button {
+	background-color: rgba(0,0,0,0);
 }
 
 #mid p {
