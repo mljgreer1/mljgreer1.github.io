@@ -44,19 +44,27 @@ $(document).ready(function() {
   });
 });
 
-
 $(".show").click(function(){
-$(this).parent().find(".poem").slideToggle();
-if ($(this).text() == "less")
-   $(this).text("more")
-else
-   $(this).text("less");
+  $(this).parent().find(".poem").slideToggle();
+    if ($(this).text() == "less")
+       $(this).text("more")
+    else
+       $(this).text("less");
 });
 
+$("#hand").mouseover(function(){
+  $(this).attr("src","handclose.png");
+})
+
+$("#hand").mouseout(function(){
+  $(this).attr("src","handopen.png")
+})
 
 $("#submitPoem").click(function(){
   alert("Thank you for submitting your poem, we will respond to you shortly if your poem has successfully made it into one of our issues :)");
 });
+
+
 
 
 
