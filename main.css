@@ -1,3 +1,4 @@
+/* Headers and main body CSS */
 body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: #F1E3E4;
@@ -39,6 +40,7 @@ h2 {
 	font-size: 36px;
 }
 
+/* Navbar CSS */
 li .nav_item {
 	display: inline;
 }
@@ -62,23 +64,73 @@ ul {
 	background-color: #000000;
 }
 
-a {
-	color: #FEFCFD;
-}
-
+/* Main content CSS */
 button {
 	background-color: rgba(0,0,0,0);
+	font: 1.0em 'roboto condensed';
+	border-radius:50px;
+	outline: none;
+}
+
+#mid {
+   padding: 70px;
+   background: #EFD3D7;
+   overflow: hidden;
 }
 
 #mid p {
 	font-size: 16px;
 }
 
-#mid {
-   padding: 70px;
-   background: #EFD3D7;
+.facepic {
+	max-width: 300px; 
+	max-height: 300px;
+	border-radius: 50%;
 }
 
+article {
+	background: #B6C2ED;
+	border: 3px solid #8E9AAF;
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+}
+
+.poem {
+	display: none;
+}
+
+.event {
+	margin: 20px;
+	max-width: 300px;
+	background: #B6C2ED;
+	border: 3px solid #8E9AAF;
+	border-radius: 20px;
+	padding: 10px;
+	color: #545454;
+	display: inline-block;
+	font-size: 20px;
+/*	overflow: auto;*/
+}
+
+.event > p {
+	font-size: 16px;
+	padding: 5px;
+}
+
+.event img {
+	margin: auto;
+	width: 270px;
+	height: 270px;
+	border-radius: 20px;
+}
+
+.details {
+	display: none;
+	text-align: left;
+}
+
+/* Footer CSS */
 #footer {
 	background: #F1E3E4;
 	font-weight: bold;
@@ -94,39 +146,22 @@ button {
 	color: #545454;
 }
 
-.facepic {
-	max-width:300px; 
-	max-height:300px;
+.video-container {
+  background: #e3e3e3;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  margin:150px;
 }
 
-img-circle {
-	border-radius:50%;
-}
-
-p {
-	padding:5px;
-}
-
-article {
-	background: #B6C2ED;
-	border: 3px solid #8E9AAF;
-	border-radius: 20px;
-	padding: 10px;
-	color: white;
-}
-
-.poem {
-	display: none;
-}
-
-.about{
-	padding:100px;
+.inspo {
+	margin:120px 0px 150px 0px;
 }
 
 
 /* Carousel CSS */
 .carousel-item img {
-	width: 150px;
+	width: 200px;
+	height: 280px;
 }
 
 .slick-center .carousel-item{
@@ -135,7 +170,7 @@ article {
 .slider{
 	width: 100px;  
 	height:150px;
-	margin: 20px auto;    
+	margin: 10px auto;    
 	text-align: center;
 }
 
@@ -151,4 +186,6 @@ article {
 	max-height:20%;
 	opacity: 1;
 }
+
+
 
