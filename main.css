@@ -68,11 +68,18 @@ ul {
 /* Main content CSS */
 button {
 	background-color: rgba(0,0,0,0);
+<<<<<<< HEAD
+	font: 1.0em 'roboto condensed';
+	border-radius:50px;
+	outline: none;
+=======
+>>>>>>> origin/master
 }
 
 #mid {
    padding: 70px;
    background: #EFD3D7;
+   overflow: hidden;
 }
 
 #mid p {
@@ -122,11 +129,15 @@ article {
 .details {
 	display: none;
 	text-align: left;
+<<<<<<< HEAD
 	position: absolute;
 	top: 15px;
 	left: 15px;
 	max-width: 100%;
 	padding: 5px;
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
 }
 
 /* Footer CSS */
@@ -136,6 +147,17 @@ article {
 	padding:20px 30px 30px 30px;
 }
 
+=======
+}
+
+/* Footer CSS */
+#footer {
+	background: #F1E3E4;
+	font-weight: bold;
+	padding:20px 30px 30px 30px;
+}
+
+>>>>>>> origin/master
 #footer .links {
 	line-height: 35px;
 	font-size: 16px;
@@ -143,12 +165,27 @@ article {
 
 #footer a {
 	color: #545454;
+<<<<<<< HEAD
+}
+
+.video-container {
+  background: #e3e3e3;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  margin:150px;
+}
+
+.inspo {
+	margin:120px 0px 150px 0px;
+=======
+>>>>>>> origin/master
 }
 
 
 /* Carousel CSS */
 .carousel-item img {
-	width: 150px;
+	width: 200px;
+	height: 280px;
 }
 
 .slick-center .carousel-item{
@@ -157,7 +194,7 @@ article {
 .slider{
 	width: 100px;  
 	height:150px;
-	margin: 20px auto;    
+	margin: 10px auto;    
 	text-align: center;
 }
 
@@ -173,4 +210,6 @@ article {
 	max-height:20%;
 	opacity: 1;
 }
+
+
 
