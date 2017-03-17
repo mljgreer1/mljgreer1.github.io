@@ -66,8 +66,17 @@ $(".show").click( function(){
 
 // Events
 $(".event").hover( function(){
-  $(this).parent().find(".details").slideToggle();
+  $(this).parent().find(".details").fadeToggle();
 });
+
+$(".event").mouseover( function(){
+  $(this).parent().find("img").css("opacity","0.2");
+});
+
+$(".event").mouseout( function(){
+  $(this).parent().find("img").css("opacity","1");
+});
+
 
 // Submit poem
 $("#submitPoem").click(function(){
