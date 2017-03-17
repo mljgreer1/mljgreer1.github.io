@@ -67,9 +67,12 @@ ul {
 /* Main content CSS */
 button {
 	background-color: rgba(0,0,0,0);
+<<<<<<< HEAD
 	font: 1.0em 'roboto condensed';
 	border-radius:50px;
 	outline: none;
+=======
+>>>>>>> origin/master
 }
 
 #mid {
@@ -128,6 +131,7 @@ article {
 .details {
 	display: none;
 	text-align: left;
+<<<<<<< HEAD
 }
 
 /* Footer CSS */
@@ -137,6 +141,17 @@ article {
 	padding:20px 30px 30px 30px;
 }
 
+=======
+}
+
+/* Footer CSS */
+#footer {
+	background: #F1E3E4;
+	font-weight: bold;
+	padding:20px 30px 30px 30px;
+}
+
+>>>>>>> origin/master
 #footer .links {
 	line-height: 35px;
 	font-size: 16px;
@@ -144,6 +159,7 @@ article {
 
 #footer a {
 	color: #545454;
+<<<<<<< HEAD
 }
 
 .video-container {
@@ -155,6 +171,8 @@ article {
 
 .inspo {
 	margin:120px 0px 150px 0px;
+=======
+>>>>>>> origin/master
 }
 
 
