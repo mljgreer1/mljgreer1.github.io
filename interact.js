@@ -1,3 +1,13 @@
+// Logo header 
+$("#hand").mouseover( function(){
+  $(this).attr("src","handclose.png");
+});
+
+$("#hand").mouseout( function(){
+  $(this).attr("src","handopen.png")
+});
+
+// Carousel JS
 $(document).ready(function() {
   $('.carousel').slick({
     centerMode: true,
@@ -44,22 +54,22 @@ $(document).ready(function() {
   });
 });
 
-$(".show").click(function(){
+// Show poem button
+$(".show").click( function(){
   $(this).parent().find(".poem").slideToggle();
-    if ($(this).text() == "less")
-       $(this).text("more")
-    else
+    if ($(this).text() == "less") {
+       $(this).text("more");
+    } else {
        $(this).text("less");
+     }
 });
 
-$("#hand").mouseover(function(){
-  $(this).attr("src","handclose.png");
-})
+// Events
+$(".event").hover( function(){
+  $(this).parent().find(".details").slideToggle();
+});
 
-$("#hand").mouseout(function(){
-  $(this).attr("src","handopen.png")
-})
-
+// Submit poem
 $("#submitPoem").click(function(){
   alert("Thank you for submitting your poem, we will respond to you shortly if your poem has successfully made it into one of our issues :)");
 });
