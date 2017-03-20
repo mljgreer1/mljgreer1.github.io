@@ -78,7 +78,7 @@ button {
 }
 
 #mid {
-   padding: 70px;
+   padding: 35px;
    background: #EFD3D7;
    overflow: hidden;
 }
@@ -98,13 +98,20 @@ a {
 }
 
 article {
-	background: #B6C2ED;
-	border: 3px solid #8E9AAF;
+	background: rgba(182, 194, 237, 0.5);
 	border-radius: 20px;
 	padding: 10px;
 	color: white;
+	width: 64%;
 }
 
+.article-title {
+	background: rgba(182, 194, 237, 1);
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+
+}
 .poem {
 	display: none;
 }
@@ -141,13 +148,12 @@ article {
 	padding: 5px;
 }
 
-<<<<<<< HEAD
 /* Footer CSS */
 #footer {
 	background: #F1E3E4;
 	font-weight: bold;
 	padding:20px 30px 30px 30px;
-=======
+
 .video-container {
   margin: 20px;
   padding: 20px;
@@ -157,8 +163,6 @@ article {
 .inspo {
 	margin: 170px 0px;
 }
->>>>>>> origin/master
-
 
 /* Footer CSS */
 #footer {
@@ -167,7 +171,6 @@ article {
 	padding:20px 30px 30px 30px;
 }
 
-<<<<<<< HEAD
 .video-container {
   background: #e3e3e3;
   margin-bottom: 20px;
@@ -179,12 +182,6 @@ article {
 	margin:120px 0px 150px 0px;
 
 
-=======
-#footer .lineheight {
-	line-height: 35px;
-	font-size: 16px;
-}
-
 #footer a {
 	color: #545454;
 }
@@ -193,7 +190,6 @@ article {
 	word-spacing: 30px;
 }
 
->>>>>>> origin/master
 /* Carousel CSS */
 .carousel-item img {
 	width: 200px;
