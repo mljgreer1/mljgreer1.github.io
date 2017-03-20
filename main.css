@@ -1,9 +1,10 @@
+/*Colour scheme: #B6C2ED #8E9AAF #EFD3D7 #FEEAFA #F1E3E4*/
+
 /* Headers and main body CSS */
 body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: #F1E3E4;
 	color: #545454;
-
 }
 
 #content-area {
@@ -34,10 +35,14 @@ header {
 	float: right;
 }
 
-
 h2 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 36px;
+}
+
+p {
+	margin: 0;
+	font-size: 16px;
 }
 
 /* Navbar CSS */
@@ -82,6 +87,10 @@ button {
 	font-size: 16px;
 }
 
+a {
+	color: #3B3355;
+}
+
 .facepic {
 	max-width: 300px; 
 	max-height: 300px;
@@ -102,24 +111,21 @@ article {
 
 .event {
 	margin: 20px;
-	max-width: 300px;
-	background: #B6C2ED;
-	border: 3px solid #8E9AAF;
+	max-width: 330px;
 	border-radius: 20px;
-	padding: 10px;
-	color: #545454;
+	padding: 7px;
+	color: #000000;
 	display: inline-block;
-	font-size: 20px;
-/*	overflow: auto;*/
+	font-size: 28px;
+	position: relative;
 }
 
-.event > p {
-	font-size: 16px;
-	padding: 5px;
+.details > p {
+	font-size: 24px;
 }
 
 .event img {
-	margin: auto;
+	opacity: 1;
 	width: 270px;
 	height: 270px;
 	border-radius: 20px;
@@ -128,22 +134,40 @@ article {
 .details {
 	display: none;
 	text-align: left;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	max-width: 100%;
+	padding: 5px;
+}
+
 <<<<<<< HEAD
+/* Footer CSS */
+#footer {
+	background: #F1E3E4;
+	font-weight: bold;
+	padding:20px 30px 30px 30px;
+=======
+.video-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #FEEAFA;
 }
+
+.inspo {
+	margin: 170px 0px;
+}
+>>>>>>> origin/master
+
 
 /* Footer CSS */
 #footer {
 	background: #F1E3E4;
 	font-weight: bold;
 	padding:20px 30px 30px 30px;
-
-/* Footer CSS */
-#footer {
-	background: #F1E3E4;
-	font-weight: bold;
-	padding:20px 30px 30px 30px;
 }
 
+<<<<<<< HEAD
 .video-container {
   background: #e3e3e3;
   margin-bottom: 20px;
@@ -155,6 +179,21 @@ article {
 	margin:120px 0px 150px 0px;
 
 
+=======
+#footer .lineheight {
+	line-height: 35px;
+	font-size: 16px;
+}
+
+#footer a {
+	color: #545454;
+}
+
+.fa {
+	word-spacing: 30px;
+}
+
+>>>>>>> origin/master
 /* Carousel CSS */
 .carousel-item img {
 	width: 200px;
