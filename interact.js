@@ -64,6 +64,7 @@ $(".show").click( function(){
      }
 });
 
+
 // Events
 $(".event").hover( function(){
   $(this).parent().find(".details").fadeToggle();
@@ -83,8 +84,11 @@ $("#submitPoem").click(function(){
   alert("Thank you for submitting your poem, we will respond to you shortly if your poem has successfully made it into one of our issues :)");
 });
 
+// sticky pic
 
-
+$(window).load(function(){
+      $(".img-responsive").sticky({bottomSpacing: 1025});
+    });
 
 
 
