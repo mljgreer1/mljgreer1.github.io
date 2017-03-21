@@ -1,21 +1,24 @@
 /*Colour scheme: #B6C2ED #8E9AAF #EFD3D7 #FEEAFA #F1E3E4*/
 
+/*New Colour Scheme: #d8e5f3 (lighter blue); #95aeca (darker blue); #2a322a (dark green); white
+
 /* Headers and main body CSS */
 body{
 	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #F1E3E4;
+	background-color: #d8e5f3;
 	color: #545454;
 }
 
 #content-area {
 	margin: auto;
 	width: 980px;
-	background-color: white;
+	background-color: white; /*what is this?*/
 	padding: 10px;
 }
 
 .navbar-default {
-	background: #F1E3E4;
+	background:#d8e5f3;
+
 }
 
 .iconhead {
@@ -38,11 +41,17 @@ header {
 h2 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 36px;
+	color: white;
 }
 
 p {
 	margin: 0;
 	font-size: 16px;
+	color: white;
+}
+
+h4 {
+	color:#2a322a;
 }
 
 /* Navbar CSS */
@@ -56,7 +65,7 @@ ul {
 }
 
 .nav-pills > li.nav-item > a {
-	color: black;
+	color: #2a322a;
 	font-weight: bold;
 	font-size: 18px;
 	background-color: rgba(0,0,0,0);
@@ -71,15 +80,17 @@ ul {
 
 /* Main content CSS */
 button {
-	background-color: rgba(0,0,0,0);
+	background-color: white;
 	font: 1.0em 'roboto condensed';
 	border-radius:50px;
 	outline: none;
+	color:#2a322a;
 }
+
 
 #mid {
    padding: 35px;
-   background: #EFD3D7;
+   background: #95aeca;
    overflow: hidden;
 }
 
@@ -88,7 +99,7 @@ button {
 }
 
 a {
-	color: #3B3355;
+	color: #2a322a;
 }
 
 .facepic {
@@ -98,20 +109,19 @@ a {
 }
 
 article {
-	background: rgba(182, 194, 237, 0.5);
+	background: rgba(255,255,255, 0.5);
 	border-radius: 20px;
 	padding: 10px;
-	color: white;
-	width: 64%;
+	color: #2a322a;
 }
 
 .article-title {
-	background: rgba(182, 194, 237, 1);
+	background: rgba(255, 255, 255, 1);
 	border-radius: 20px;
 	padding: 10px;
-	color: white;
-
+	color: #2a322a;
 }
+
 .poem {
 	display: none;
 }
@@ -148,39 +158,50 @@ article {
 	padding: 5px;
 }
 
-/* Footer CSS */
-#footer {
-	background: #F1E3E4;
-	font-weight: bold;
-	padding:20px 30px 30px 30px;
+/*Issue Pictures*/
 
+#wrapper {
+      border-radius: 20px;
+      float: right;
+      width: 350px;
+      height: 400px;
+      margin-right: 150px;
+    }
+
+@media (max-width: 920px) {
+	#wrapper {
+		margin: 75px;
+	}
+}
+
+@media (max-width: 400px) {
+	#wrapper {
+		margin: 0px;
+	}
+}
+
+/*Inspiration Page*/
 .video-container {
-  margin: 20px;
-  padding: 20px;
-  background-color: #FEEAFA;
+  margin:0px, 100px, 0px, 100px;
+  padding: 50px;
+  border-radius: 20;
 }
 
 .inspo {
-	margin: 170px 0px;
+	height:425px;
 }
 
 /* Footer CSS */
-#footer {
-	background: #F1E3E4;
+
+#footer{
+	background: #d8e5f3;
 	font-weight: bold;
 	padding:20px 30px 30px 30px;
 }
 
-.video-container {
-  background: #e3e3e3;
-  margin-bottom: 20px;
-  padding-bottom: 50px;
-  margin:150px;
+.row {
+	height: 1000px;
 }
-
-.inspo {
-	margin:120px 0px 150px 0px;
-
 
 #footer a {
 	color: #545454;
@@ -190,6 +211,10 @@ article {
 	word-spacing: 30px;
 }
 
+#footer .lineheight {
+	line-height: 35px;
+	font-size: 16px;
+}
 /* Carousel CSS */
 .carousel-item img {
 	width: 200px;
@@ -218,6 +243,5 @@ article {
 	max-height:20%;
 	opacity: 1;
 }
-
 
 
