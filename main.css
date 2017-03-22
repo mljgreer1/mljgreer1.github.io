@@ -2,22 +2,29 @@
 
 /*New Colour Scheme: #d8e5f3 (lighter blue); #95aeca (darker blue); #2a322a (dark green); white
 
+/** New New Colour Scheme: 
+lightest blue - #e9fcfc/rgba(233,252,252,1)
+mid blue - #c0ebf4/rgba(192,235,244,1)
+lighter pink - #f7e9eb/rgba(247,233,235,1)
+darker pink - fda7cf/rgba(253,167,207,1)
+
+
 /* Headers and main body CSS */
 body{
 	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #d8e5f3;
+	background-color: rgba(233,252,252,0.5);
 	color: #545454;
 }
 
 #content-area {
 	margin: auto;
 	width: 980px;
-	background-color: white; /*what is this?*/
+	background-color: white;
 	padding: 10px;
 }
 
 .navbar-default {
-	background:#d8e5f3;
+	background: rgba(233,252,252,0.5);
 
 }
 
@@ -41,17 +48,20 @@ header {
 h2 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 36px;
-	color: white;
+	color: black;
 }
 
 p {
 	margin: 0;
 	font-size: 16px;
-	color: white;
+	color: black;
 }
 
 h4 {
-	color:#2a322a;
+	color:black;
+	background: #f7e9eb;
+	padding: 10px;
+	border-radius: 20px;
 }
 
 /* Navbar CSS */
@@ -65,7 +75,7 @@ ul {
 }
 
 .nav-pills > li.nav-item > a {
-	color: #2a322a;
+	color:black;
 	font-weight: bold;
 	font-size: 18px;
 	background-color: rgba(0,0,0,0);
@@ -80,17 +90,18 @@ ul {
 
 /* Main content CSS */
 button {
-	background-color: white;
+	background-color: rgba(253,167,207,0.75);
 	font: 1.0em 'roboto condensed';
 	border-radius:50px;
+	border-width: 0;
 	outline: none;
-	color:#2a322a;
+	color:black;
 }
 
 
 #mid {
-   padding: 35px;
-   background: #95aeca;
+   padding: 25px;
+   background: rgba(192,235,244,0.75);
    overflow: hidden;
 }
 
@@ -99,7 +110,7 @@ button {
 }
 
 a {
-	color: #2a322a;
+	color: black;
 }
 
 .facepic {
@@ -109,17 +120,17 @@ a {
 }
 
 article {
-	background: rgba(255,255,255, 0.5);
+	background: rgba(247,233,235, 0.80);
 	border-radius: 20px;
 	padding: 10px;
-	color: #2a322a;
+	color: black;
 }
 
 .article-title {
-	background: rgba(255, 255, 255, 1);
+	background: rgba(247,233,235, 1);
 	border-radius: 20px;
-	padding: 10px;
-	color: #2a322a;
+	padding: 30px;
+	color: black;
 }
 
 .poem {
@@ -165,42 +176,46 @@ article {
       float: right;
       width: 350px;
       height: 400px;
-      margin-right: 150px;
+      margin-right: 120px;
     }
 
-@media (max-width: 920px) {
+@media (max-width: 865px) {
 	#wrapper {
-		margin: 75px;
+		display: none;
 	}
 }
 
-@media (max-width: 400px) {
-	#wrapper {
-		margin: 0px;
-	}
+.row {
+	height:400px;
 }
 
 /*Inspiration Page*/
 .video-container {
-  margin:0px, 100px, 0px, 100px;
-  padding: 50px;
-  border-radius: 20;
+	padding:50px;
 }
 
 .inspo {
-	height:425px;
+	display: inline-block;
+	height: 440px;
+	overflow: hidden;
 }
 
+h3 {
+	font-size:26px;
+	line-height: 50px;
+}
+
+@media (max-width: 865px) {
+	.inspo {
+		display: none;
+	}
+}
 /* Footer CSS */
 
 #footer{
-	background: #d8e5f3;
+	background: rgba(233,252,252,0.5);
 	font-weight: bold;
-	padding:20px 30px 30px 30px;
-}
-
-.row {
-	height: 1000px;
+	padding:0px 30px 30px 30px;
 }
 
 #footer a {
@@ -211,10 +226,11 @@ article {
 	word-spacing: 30px;
 }
 
-#footer .lineheight {
+.lineheight {
 	line-height: 35px;
 	font-size: 16px;
 }
+
 /* Carousel CSS */
 .carousel-item img {
 	width: 200px;

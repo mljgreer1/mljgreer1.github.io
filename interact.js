@@ -87,9 +87,7 @@ $("#submitPoem").click(function(){
 // sticky pic
 
 $(window).load(function(){
-      $(".img-responsive").sticky({bottomSpacing: 1025});
+      $(".img-responsive").sticky({bottomSpacing: 450});
     });
-
-
 
 
