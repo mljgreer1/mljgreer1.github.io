@@ -86,7 +86,7 @@ function createCarouselObj(index, left) {
     item.style.left = left + 'px';
     item.style.width = width + 'px';
     var link = document.createElement('a');
-    link.href = './issue' + (index + 1) + '.html';
+    link.href = './Issue' + (index + 1) + '.html';
     item.appendChild(link);
     var img = document.createElement('img');
     img.src = imgs[index];
