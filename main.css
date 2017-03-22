@@ -171,7 +171,7 @@ article {
 	padding: 5px;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 980px) {
 	.eventMap {
 		display: none;
 	}
