@@ -171,6 +171,12 @@ article {
 	padding: 5px;
 }
 
+@media (max-width: 840px) {
+	.eventMap {
+		display: none;
+	}
+}
+
 /*Issue Pictures*/
 
 #wrapper {
