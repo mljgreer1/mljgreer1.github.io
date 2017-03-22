@@ -1,3 +1,4 @@
+//initialise
 var width = 220;
 var carouselItems = [];
 var imgs = [
@@ -16,7 +17,7 @@ var text = [
     'Dec 2016',
     'Jan 2017',
     'Feb 2017',
-    'Mar 2017']
+    'Mar 2017'];
     
 initialise();
 function initialise() {
@@ -30,6 +31,7 @@ function initialise() {
     roundItems();
 }
 
+//create linked images and text to be part of carousel
 function createCarouselObj(index, left) {
     // index 0-6
     var item = document.createElement('li');
@@ -58,6 +60,7 @@ function appendItem() {
     $('#carousel').append(newItem.item); 
 }
 
+//stick items at the beginning or the end of the list
 function prependItem() {
     var firstItem = carouselItems[0];
     var newItem = createCarouselObj(
@@ -79,29 +82,31 @@ var isDown = false;
 var isDragged = false;
 var prevX;
 
+//gets location of mouse on event of mouse down
 $('#carousel').on('mousedown touchstart', function(event) {
     isDown = true;
     isDragged = false;
     if (event.type == 'mousedown') {
-        prevX = event.clientX;
-    } else {
+        prevX = event.clientX; //desktop
+    } else { //mobile
         if (event.changedTouches.length == 1) {
-            prevX = event.changedTouches[0].clientX;
+            prevX = event.changedTouches[0].clientX; 
         }
     }
 });
 
-$('#carousel').on('dragstart', function(event) { event.preventDefault(); });
+$('#carousel').on('dragstart', function(event) { event.preventDefault(); }); //prevent browser default drag
 
 $('html').on('mousemove touchmove', function(event){
     if (isDown == true) {
         isDragged = true;
         var x;
         if (event.type == 'mousemove') {
-            x = event.clientX;
+            x = event.clientX; //desktop
         } else if (event.changedTouches.length == 1) {
-                x = event.changedTouches[0].clientX;
+            x = event.changedTouches[0].clientX; //mobile
         }
+
         var items = $('.carousel-item');
         var left;
         for (var i = 0; i < items.length; i++) {
@@ -110,10 +115,9 @@ $('html').on('mousemove touchmove', function(event){
             items[i].style.left = left + 'px';
         }
         prevX = x;
-        //has the carousel been dragged enough that there is blank space?
-        if (parseInt(carouselItems[carouselItems.length - 1].item.style.left) < innerWidth) {
+        if (parseInt(carouselItems[carouselItems.length - 1].item.style.left) < innerWidth) { //if the last carousel item has a left position within the right of the page make a new one
             appendItem();
-        } else if (parseInt(carouselItems[0].item.style.left) > -width) {
+        } else if (parseInt(carouselItems[0].item.style.left) > -width) { //if the first carousel item is off the left side of the page by less than the width of each item, create a new one here
             prependItem();   
         }
     }
@@ -122,6 +126,5 @@ $('html').on('mousemove touchmove', function(event){
 $('html').on('mouseup touchend', function(event){
     roundItems();
     isDown = false;
-
 });
 
