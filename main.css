@@ -1,12 +1,9 @@
 /* Headers and main body CSS */
-* {
-	overflow-x: hidden;
-}
-
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: rgba(233,252,252,0.5);
 	color: #545454;
+	overflow-x: hidden;
 }
 
 #content-area {
