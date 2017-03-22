@@ -1,19 +1,9 @@
-/*Colour scheme: #B6C2ED #8E9AAF #EFD3D7 #FEEAFA #F1E3E4*/
-
-/*New Colour Scheme: #d8e5f3 (lighter blue); #95aeca (darker blue); #2a322a (dark green); white
-
-/** New New Colour Scheme: 
-lightest blue - #e9fcfc/rgba(233,252,252,1)
-mid blue - #c0ebf4/rgba(192,235,244,1)
-lighter pink - #f7e9eb/rgba(247,233,235,1)
-darker pink - fda7cf/rgba(253,167,207,1)
-
-
 /* Headers and main body CSS */
 body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: rgba(233,252,252,0.5);
 	color: #545454;
+	overflow-x: hidden;
 }
 
 #content-area {
@@ -25,6 +15,7 @@ body{
 
 .navbar-default {
 	background: rgba(233,252,252,0.5);
+	border-width: 0;
 
 }
 
@@ -36,7 +27,7 @@ body{
 	float: left;
 }
 
-header {
+h1 {
 	font-family: 'Permanent Marker', cursive;
 	text-align: left;
 	font-size: 72px;
@@ -103,6 +94,7 @@ button {
    padding: 25px;
    background: rgba(192,235,244,0.75);
    overflow: hidden;
+   min-height: 400px ;
 }
 
 #mid p {
@@ -138,7 +130,7 @@ article {
 }
 
 .event {
-	margin: 20px;
+	margin: 30px;
 	max-width: 330px;
 	border-radius: 20px;
 	padding: 7px;
@@ -190,6 +182,7 @@ article {
 }
 
 /*Inspiration Page*/
+
 .video-container {
 	padding:50px;
 }
@@ -210,6 +203,12 @@ h3 {
 		display: none;
 	}
 }
+
+.contact {
+	max-width: 700px;
+	margin: auto;
+}
+
 /* Footer CSS */
 
 #footer{
@@ -233,31 +232,28 @@ h3 {
 
 /* Carousel CSS */
 .carousel-item img {
-	width: 200px;
-	height: 280px;
+	width: 220px;
+	height: 300px;
+	padding: 10px;
 }
 
-.slick-center .carousel-item{
-	color: #FFF;
-}
-.slider{
-	width: 100px;  
-	height:150px;
-	margin: 10px auto;    
+.carousel-item {
+	position: absolute;
 	text-align: center;
 }
 
-.slider div{
-	margin-right: 5px;
-}
-.slick-slide{
-	opacity: .6;
-}
-.slick-center{
-	display: block;
-	max-width: 10%;
-	max-height:20%;
-	opacity: 1;
+.carousel-item {
+    position: absolute;
+    display: inline-block;
 }
 
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
 
